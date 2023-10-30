@@ -27,7 +27,7 @@
                 </tr>
                 <tr>
                     <?php $x = null; ?>
-                    <td>$x = null o indefinido</td>
+                    <td>$x = null</td>
                     <td class="conversion"><?php var_dump(empty($x)); ?></td>
                     <td class="conversion"><?php var_dump(isset($x)); ?></td>
                     <td class="conversion"><?php var_dump(is_null($x)); ?></td>
